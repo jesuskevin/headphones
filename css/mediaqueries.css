@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1024px){
+    /* navbar styles */
+    .navbar{
+        background-color: #ca4172;
+        height: 80px;
+        box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, .42);
+        align-items: center;
+    }
+
+    .navbar .menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        background-color: #ca4172;
+        height: 50vh;
+        left: -1em;
+        transform: translateY(-130%);
+        transition: all 1.4s;
+    }
+
+    .navbar .menu-toggle{
+        transform: translateY(0%);
+    }
+
+    .menu li{
+        margin-top: 2em;
+    }
+
+    .navbar .menu-bar{
+        display: block;
+        font-size: 3em;
+        color: #fff;
+        cursor: pointer;
+    }
+    /* navbar styles ends */
+
+    /* Main styles */
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        height: 70vh;
+    }
+
+    .main img{
+        width: 12em;
+        margin-top: -100px;
+    }
+
+    .main h1{
+        margin-top: -80px;
+    }
+
+    .read-more{
+        display: none;
+    }
+    /* Main styles ends */
+
+    /* About styles */
+    .about{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about h3{
+        margin: 0;
+    }
+
+    .about .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content .btn-toBuy{
+        margin-bottom: 1em;
+        padding: 5px 10px;
+    }
+
+    .about .about-info{
+        text-align: center;
+    }
+
+    .about img{
+        width: 300px;
+    }
+    /* About styles ends */
+
+    /* support styles */
+    .support{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .support .read-more{
+        display: block;
+    }
+    /* support styles ends */
+
+    /* Banner styles */
+    .banner{
+        height: 50vh;
+        background-position: center;
+    }
+
+    .banner .secondary-info {
+        grid-column: 2 / 11;
+        text-align: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    .secondary-info p, .secondary-info h2, .secondary-info h3{
+        display: none;
+    }
+    /* Banner styles ends */
+
+    /* Footer styles */
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer .social-networks{
+        margin: 2em;
+    }
+
+    .footer .quick-links .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer .quick-links .menu li a{
+        margin: 0px;
+    }
+    /* Footer styles ends */
+}
